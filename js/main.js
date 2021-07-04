@@ -133,7 +133,7 @@
   //Run on Window Load
   $(window).load(function () {
     //Page loader
-    $('#page-loader').fadeOut(1000, function () { });
+    $('#page-loader').fadeOut(400, function () { });
 
     //Safari Crossbrowser animation Fix
     if ($('html').hasClass('safari')) {
