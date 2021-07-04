@@ -2,612 +2,1357 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title> DevGeo Personal Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-        crossorigin="anonymous" />
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
-        type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+  <!-- Page title -->
+  <title>Geovany Cardoza CV & Portfolio</title>
+  <!-- /Page title -->
+
+  <!-- CSS Files
+  ========================================================= -->
+  <!-- Google web fonts - Open Sans -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <!-- /Google web fonts -->
+  <!-- Bootstrap CSS -->
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- /Bootstrap CSS -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <!-- /Font Awesome -->
+  <!-- Nivo Lightbox -->
+  <link href="assets/nivo-lightbox/nivo-lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/nivo-lightbox/themes/default/default.css" type="text/css" />
+  <!-- /Nivo Lightbox -->
+  <!-- Animate CSS -->
+  <link href="assets/animate.css" rel="stylesheet">
+  <!-- /Animate CSS -->
+  <!-- Theme Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+  <!-- Theme Styles -->
+  <!-- / CSS Files
+  ========================================================= -->
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="assets/html5shiv.js"></script>
+    <script src="assets/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Favicon and Touch Icons
+  ========================================================= -->
+  <link rel="shortcut icon" href="favicon-vertica.ico" type="image/x-icon">
+  <link rel="icon" href="favicon-vertica.ico" type="image/x-icon">
+  <link href="apple-touch-icon-144.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+  <link href="apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+  <link href="apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+  <link href="apple-touch-icon-57.png" rel="apple-touch-icon-precomposed">
+  <!-- /Favicon
+  ========================================================= -->
 </head>
 
-<body id="page-top">
+<body data-spy="scroll" data-target="#side-menu">
 
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="" alt="" /></a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars ml-1"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+  <!-- Page Loader
+========================================================= -->
+  <div class="loader" id="page-loader">
+    <div class="loading-wrapper">
+      <div class="tp-loader spinner"></div>
+      <!-- Edit With Your Name -->
+      <div class="side-menu-name">
+        Geovany <strong>Cardoza</strong>
+      </div>
+      <!-- /Edit With Your Name -->
+      <!-- Edit With Your Job -->
+      <p class="side-menu-job">Freelancer / IT Technician / Full Stack Web Developer</p>
+      <!-- /Edit With Your Job -->
+    </div>
+  </div>
+  <!-- /End of Page loader
+========================================================= -->
+
+  <!-- SIDE MENU
+========================================================= -->
+  <div class="side-menu-open hidden-sm hidden-xs">
+    <!-- Menu-button -->
+    <a href="#" class="btn btn-default side-menu-button"><i class="fa fa-bars"></i> MENU</a>
+    <!-- /menu-button -->
+  </div>
+  <!-- Side Menu container -->
+  <div class="side-menu">
+    <!-- close button -->
+    <span id="side-menu-close"><i class="fa fa-times"></i></span>
+    <!-- /close button -->
+
+    <!-- Menu header -->
+    <div class="side-menu-name">
+      <!-- edit with your name -->
+      Geovany <strong>Cardoza</strong>
+      <!-- /edit with your name -->
+    </div>
+    <!-- edit with your Job -->
+    <p class="side-menu-job">IT Technician / Full Stack Web Developer</p>
+    <!-- /edit with your job -->
+    <!-- /Menu Header -->
+
+    <!-- Main Navigation -->
+    <nav id="side-menu" class="side-menu-este">
+      <ul class="nav side-menu-nav">
+        <li><a href="#intro"><i class="fa fa-angle-right"></i> Intro</a></li>
+        <li><a href="#education"><i class="fa fa-angle-right"></i> Education</a></li>
+        <li><a href="#works"><i class="fa fa-angle-right"></i> Work Experience</a></li>
+        <li><a href="#skills"><i class="fa fa-angle-right"></i> Skills</a></li>
+        <li><a href="#interests"><i class="fa fa-angle-right"></i> Interests</a></li>
+        <li><a href="#portfolio"><i class="fa fa-angle-right"></i> Portfolio</a></li>
+        <li><a href="#contact"><i class="fa fa-angle-right"></i> Contact</a></li>
+      </ul>
     </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-        <div class="container">
-            <div class="masthead-subheading">Welcome To My Website!</div>
-            <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+    <!-- /Main Navigation-->
+
+    <!-- Other Buttons -->
+    <div class="side-menu-buttons">
+      <a href="https://drive.google.com/file/d/1WKNnBUF5kebH4KCiB-N2n_y9CwJPz-Dq/view?usp=sharing"
+        class="btn btn-side-menu"><i class="fa fa-download"></i> Download my resume</a>
+      <a href="mailto:geoyd17@gmail.com" class="btn btn-side-menu"><i class="fa fa-envelope-o"></i> Send me a
+        message</a>
+    </div>
+    <!-- /Other Buttons-->
+  </div>
+  <!-- /side menu container -->
+
+  <!-- /SIDE MENU
+========================================================= -->
+
+  <!-- CONTENT
+========================================================= -->
+  <section id="content-body" class="container animated">
+    <div class="row" id="intro">
+
+      <!-- Header Colors -->
+      <div class="col-md-10 col-sm-10  col-md-offset-2 col-sm-offset-1 clearfix top-colors">
+        <div class="top-color top-color1"></div>
+        <div class="top-color top-color2"></div>
+        <div class="top-color top-color3"></div>
+        <div class="top-color top-color1"></div>
+        <div class="top-color top-color2"></div>
+      </div>
+      <!-- /Header Colors -->
+
+      <!-- Beginning of Content -->
+      <div class="col-md-10 col-sm-10 col-md-offset-2 col-sm-offset-1 resume-container">
+
+        <!-- Header Buttons -->
+        <div class="row">
+          <div class="header-buttons col-md-10 col-md-offset-1">
+            <!-- Download Resume Button -->
+            <a href="https://drive.google.com/file/d/1WKNnBUF5kebH4KCiB-N2n_y9CwJPz-Dq/view?usp=sharing"
+              class="btn btn-default btn-top-resume"><i class="fa fa-download"></i><span class="btn-hide-text">Download
+                my resume</span></a>
+            <!-- /Download Resume Button -->
+            <!-- Mail Button -->
+            <a href="mailto:geoyd17@gmail.com" class="btn btn-default btn-top-message"><i
+                class="fa fa-envelope-o"></i><span class="btn-hide-text">Send me a message</span></a>
+            <!-- /Mail Button -->
+          </div>
         </div>
-    </header>
-    <!-- Services-->
-    <section class="page-section" id="services">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">I'm A</h2>
-                <h2 class="section-heading text-uppercase">FullStack Web Developer</h2>
+        <!-- /Header Buttons -->
 
+        <!-- =============== PROFILE INTRO ====================-->
+        <div class="profile-intro row">
+          <!-- Left Collum with Avatar pic -->
+          <div class="col-md-4 profile-col">
+            <!-- Avatar pic -->
+            <div class="profile-pic">
+              <div class="profile-border">
+                <!-- Put your picture here ( 308px by 308px for retina display)-->
+                <img
+                  src="https://avatars.githubusercontent.com/u/25460090?s=400&u=951d128f9dd08e8e44d2c32812736a3ba3b4ecfa&v=4"
+                  alt="">
+                <!-- /Put your picture here -->
+              </div>
             </div>
+            <!-- /Avatar pic -->
+          </div>
+          <!-- /Left columm with avatar pic -->
 
-            <!-- Portfolio Grid-->
-            <section class="page-section bg-light" id="portfolio">
-                <div class="container">
-                    <div class="text-center">
-                        <h2 class="section-heading text-uppercase">Portfolio</h2>
-                        <h3 class="section-subheading ">Projects</h3>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-6 mb-4">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/weatherDasboard.png" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">Weather Dashboard</div>
-                                    <div class="portfolio-caption-subheading text-muted">Web Development</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mb-4">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/PetFinder!.gif" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">My Petfinder App</div>
-                                    <div class="portfolio-caption-subheading text-muted">Web Development</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mb-4">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/PasswordGenerator.png" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">Password Generator</div>
-                                    <div class="portfolio-caption-subheading text-muted">Web Development</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/DaySchedule.png" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">Day Schedule</div>
-                                    <div class="portfolio-caption-subheading text-muted">Web Development</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/todos.png" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">Todo List</div>
-                                    <div class="portfolio-caption-subheading text-muted">Web Development</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/covidGFS.png" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">CovidTravellerGFS</div>
-                                    <div class="portfolio-caption-subheading text-muted">Web Development</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <!-- Right Columm -->
+          <div class="col-md-7">
+            <!-- Welcome Title-->
+            <h1 class="intro-title1">Hi, i'm <span class="color1 bold">Geovany Cardoza!</span></h1>
+            <!-- /Welcome Title -->
+            <!-- Job - -->
+            <h2 class="intro-title2">IT Technician / Full Stack Web Developer</h2>
+            <!-- /job -->
+            <!-- Description -->
+            <p>Having a background as a computer hardware and software repair technician, I started to get interested in
+              coding.
+              Then I said to myself you need to get to the other level. So I went to the University of Pennsylvania
+              coding Bootcamp where I became a Full-Stack Web Developer.
+            </p>
+            <!-- /Description -->
+          </div>
+          <!-- /Right Collum -->
+        </div>
+        <!-- ============  /PROFILE INTRO ================= -->
+
+        <!-- ============  TIMELINE ================= -->
+        <div class="timeline-wrap">
+          <div class="timeline-bg">
+
+            <!-- ====>> SECTION: PROFILE INFOS <<====-->
+            <section class="timeline profile-infos">
+
+              <!-- VERTICAL MARGIN (necessary for the timeline effect) -->
+              <div class="line row timeline-margin">
+                <div class="content-wrap">
+                  <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                  <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
+                  <div class="col-md-9 bg1 full-height"></div>
                 </div>
+              </div>
+              <!-- /VERTICAL MARGIN -->
+
+              <!-- SECTION TITLE -->
+              <div class="line row">
+                <!-- Margin Collums (necessary for the timeline effect) -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height">
+                </div>
+                <!-- /Margin Collums -->
+                <!-- Item Content -->
+                <div class="col-md-8 content-wrap bg1">
+                  <!-- Section title -->
+                  <h2 class="section-title">Profile</h2>
+                  <!-- /Section title -->
+                </div>
+                <!-- /Item Content -->
+                <!-- Margin Collum-->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <!-- / Margin Collum-->
+              </div>
+              <!-- /SECTION TITLE -->
+
+              <!-- SECTION ITEM -->
+              <div class="line row">
+                <!-- Margin Collums (necessary for the timeline effect) -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+                <!-- /Margin Collums -->
+                <!-- Item Content -->
+                <div class="col-md-8 content-wrap bg1">
+                  <div class="line-content">
+                    <!-- Subtitle -->
+                    <h3 class="section-item-title-1">Full Name</h3>
+                    <!-- /Subtitle -->
+                    <!-- content -->
+                    <p>Geovany Cardoza</p>
+                    <!-- /Content -->
+                  </div>
+                </div>
+                <!-- /Item Content -->
+                <!-- Margin Collum-->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <!-- /Margin Collum-->
+              </div>
+              <!-- /SECTION ITEM -->
+
+              <!-- SECTION ITEM -->
+              <div class="line row">
+                <!-- Margin Collums (necessary for the timeline effect) -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+                <!-- /Margin Collums -->
+                <!-- Item Content -->
+                <div class="col-md-8 content-wrap bg1">
+                  <div class="line-content">
+                    <!-- Subtitle -->
+                    <h3 class="section-item-title-1">Born</h3>
+                    <!-- /Subtitle -->
+                    <!-- content -->
+                    <p>03 April 1987 - Puerto Rico, U.S.A</p>
+                    <!-- /Content -->
+                  </div>
+                </div>
+                <!-- /Item Content -->
+                <!-- Margin Collum-->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <!-- /Margin Collum-->
+              </div>
+              <!-- /SECTION ITEM -->
+
+              <!-- SECTION ITEM -->
+              <div class="line row">
+                <!-- Margin Collums (necessary for the timeline effect) -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+                <!-- /Margin Collums -->
+                <!-- Item Content -->
+                <div class="col-md-8 content-wrap bg1">
+                  <div class="line-content">
+                    <!-- Subtitle -->
+                    <h3 class="section-item-title-1">Email</h3>
+                    <!-- /Subtitle -->
+                    <!-- content -->
+                    <p>geoyd17@gmail.com</p>
+                    <!-- /Content -->
+                  </div>
+                </div>
+                <!-- /Item Content -->
+                <!-- Margin Collum -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <!-- /Margin Collums -->
+              </div>
+              <!-- /SECTION ITEM -->
+
+              <!-- SECTION ITEM -->
+              <div class="line row">
+                <!-- Margin Collums (necessary for the timeline effect) -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+                <!-- Margin Collums (necessary for the timeline effect) -->
+                <!-- Item Content -->
+                <div class="col-md-8 content-wrap bg1">
+                  <div class="line-content">
+                    <!-- Subtitle -->
+                    <h3 class="section-item-title-1">Find Me On</h3>
+                    <!-- /Subtitle -->
+                    <!-- content -->
+                    <a href="https://www.facebook.com/geovany.cardoza.501/" class="btn btn-default"><i
+                        class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/geovany_cardoza" class="btn btn-default"><i
+                        class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/geovany-cardoza-14a961135/" class="btn btn-default"><i
+                        class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/Geovany17" class="btn btn-default"><i class="fa fa-github"></i></a>
+
+                    <!-- /Content -->
+                  </div>
+                </div>
+                <!-- /Item Content -->
+                <!-- Margin Collum -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <!-- /Margin Collum -->
+              </div>
+              <!-- /SECTION ITEM -->
             </section>
-            <!-- About-->
-            <section class="page-section bg-light" id="about">
-                <div class="container">
-                    <div class="text-center">
-                        <h2 class="section-heading text-uppercase">About</h2>
+            <!-- ==>> /SECTION: PROFILE INFOS -->
 
+            <!-- ====>> SECTION: EDUCATION <<====-->
+            <section class="timeline education" id="education">
+
+              <!-- Margin (necessary for the timeline effect) -->
+              <div class="line row timeline-margin">
+                <div class="content-wrap">
+                  <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                  <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
+                  <div class="col-md-9 bg1 full-height"></div>
+                </div>
+              </div>
+              <!-- /Margin -->
+
+              <!-- SECTION TITLE -->
+              <div class="line row">
+                <!-- Margin Collums (necessary for the timeline effect) -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height">
+                </div>
+                <!-- /Margin Collums -->
+                <!-- Item Content -->
+                <div class="col-md-8 content-wrap bg1">
+                  <!-- Section title -->
+                  <h2 class="section-title">Education</h2>
+                  <!-- /Section title -->
+                </div>
+                <!-- /Item Content -->
+                <!-- Margin Collum-->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <!-- /Margin Collum-->
+              </div>
+              <!-- /SECTION TITLE -->
+
+              <!-- SECTION ITEM -->
+              <div class="line row">
+                <!-- Margin Collums (necessary for the timeline effect) -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-education "></div>
+                <!-- /Margin Collums -->
+                <!-- Item Content -->
+                <div class="col-md-8 content-wrap bg1">
+                  <div class="line-content line-content-education">
+                    <!-- Graduation title -->
+                    <h3 class="section-item-title-1">IT Technician</h3>
+                    <!-- /Graduation title -->
+                    <!-- Graduation time -->
+                    <h4 class="graduation-time"><i class="fa fa-university"></i> ICPR Junior College Puerto Rico (1 Year
+                      Course)
+                      - <span class="graduation-date"><strong> 2011</strong></span>
+                    </h4>
+                    <!-- /Graduation time -->
+                    <!-- content -->
+                    <div class="course-description">
+                      <p>Troubleshoot and repair hardware, software and problem solve core service and support
+                        challenges while
+
+                        applying best
+
+                        practices for documentation, change management, and scripting
+
+                        Support basic IT infrastructure and networking
+
+                        Configure and support PC, mobile and IoT device hardware
+
+                        Implement basic data backup and recovery methods and apply data storage and management best
+
+                        practices. </p>
                     </div>
+                    <!-- /Content -->
+                  </div>
+                </div>
+                <!-- /Item Content -->
+                <!-- Margin Collum -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <!-- /Margin Collum -->
+              </div>
+              <!-- /SECTION ITEM -->
 
-                    <div class="row">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto text-center">
-                                <p class="large">
-                                <h3 class="section-subheading ">Full-stack web developer with a Web Development
-                                    Certificate from the University of Pennsylvania.
-                                    Having a background as a computer hardware and software repair technician, I started
-                                    to get interested in coding.
-                                    Then I said to myself you need to get to the other level. So I went to the
-                                    University of Pennsylvania coding Bootcamp where I became a Full-Stack Web
-                                    Developer..</h3>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="team-member">
-                                <img class="mx-auto rounded-circle"
-                                    src="https://avatars2.githubusercontent.com/u/25460090?s=400&u=951d128f9dd08e8e44d2c32812736a3ba3b4ecfa&v=4"
-                                    alt="" />
-                                <h4>Geovany Cardoza</h4>
-                                <p class="text-muted">Full Stack Web Developer <br>
-                                    University Of Pennsylvania</p>
-                                <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/geovany_cardoza"><i
-                                        class="fab fa-twitter"></i></a>
-                                <a class="btn btn-dark btn-social mx-2" href="https://github.com/Geovany17"><i
-                                        class="fab fa-github"></i></a>
-                                <a class="btn btn-dark btn-social mx-2"
-                                    href="https://www.linkedin.com/in/geovany-cardoza-14a961135/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-
-
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <ul>
-                                    <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 3 April
-                                        1987
-                                    </li>
-                                    <li><i class="icofont-rounded-right"></i> <strong>Website:</strong>
-                                        geovany17.github.io/
-                                    </li>
-                                    <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +267 306
-                                        7710</li>
-                                    <li><i class="icofont-rounded-right"></i> <strong>Email:</strong>
-                                        geovany17@gmail.com</li>
-
-                                </ul>
-                            </div>
-                            <div class="col-lg-6">
-                                <ul>
-                                    <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 33</li>
-                                    <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong>FullStack
-                                        Developer
-                                    </li>
-                                    <li><i class="icofont-rounded-right"></i> <strong>College:</strong>University Of
-                                        Pennsylvania
-                                    </li>
-                                    <li><i class="icofont-rounded-right"></i> <strong>City:</strong>
-                                        Philadelphia, PA
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-
-
+              <!-- SECTION ITEM -->
+              <div class="line row">
+                <!-- Margin Collums (necessary for the timeline effect) -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-education "></div>
+                <!-- /Margin Collums -->
+                <!-- Item Content -->
+                <div class="col-md-8 content-wrap bg1">
+                  <div class="line-content line-content-education">
+                    <!-- Graduation title -->
+                    <h3 class="section-item-title-1">Full Stack Web Developer</h3>
+                    <!-- /Graduation title <-->
+                    <!-- Graduation time -->
+                    <h4 class="graduation-time"><i class="fa fa-university"></i> University Of Pennsylvania Coding
+                      Bootcamp
+                      - <span class="graduation-date"><strong> Graduation November 2021</strong></span></h4>
+                    <!-- /Graduation time -->
+                    <!-- content -->
+                    <div class="graduation-description">
+                      <p>Lay a strong foundation in coding through learning the fundamental concepts of web development:
+                        HTML5, CSS3, JavaScript, jQuery, command line, API consumption and much more.
+                        Learn how to engineer full stack applications, write Node.js server code, MySQL, and connect
+                        back end technologies with the front end.
+                        Acquire the skills to optimize web applications for speed and efficiency: NoSQL databases,
+                        progressive web applications (PWAs), single-page applications with React.
+                        Create scalable web apps, APIs, and services.
+                        Dive into core Java and object oriented programming.
+                        Simulate a professional work environment by teaming up with your peers and put your new skills
+                        into practice on complex projects.
+                        Gain an edge in the field through our comprehensive career services, such as technical interview
+                        preparation.</p>
                     </div>
+                    <!-- /Content -->
+                  </div>
+                </div>
+                <!--/Item Content -->
+                <!-- Margin Collum-->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <!-- /Margin Collum-->
+              </div>
+              <!-- /SECTION ITEM -->
 
-                    <!-- Resume-->
-                    <section class="page-section" id="resume">
-                        <div class="container">
-                            <div class="text-center">
-                                <h2 class="section-heading text-uppercase"><em>Resume</em> </h2>
-                                <hr>
-                                <div class="text-center">
-                                    <div id="success"></div>
-                                    <a id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"
-                                        href="https://drive.google.com/file/d/1WKNnBUF5kebH4KCiB-N2n_y9CwJPz-Dq/view?usp=sharing"
-                                        title="Resume" download>Download</a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+              <!-- SECTION ITEM -->
+              <div class="line row">
+                <!-- Margin Collums (necessary for the timeline effect) -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-education "></div>
+                <!-- /Margin Collums -->
+                <!-- Item Content -->
+                <div class="col-md-8 content-wrap bg1">
+                  <div class="line-content line-content-education">
+                    <!-- Graduation title -->
+                    <h3 class="section-item-title-1">CompTIA A+ CertMaster Student</h3>
+                    <!-- /Graduation title -->
+                    <!-- Graduation time -->
+                    <h4 class="graduation-time"><i class="fa fa-university"></i> A+ Core 1 (220-1001) and Core 2
+                      (220-1002) Certification</i>
+                      - <span class="graduation-date"><strong>Present</strong> </span></h4>
+                    <!-- /Graduation time -->
+                    <!-- content -->
+                    <div class="graduation-description">
+                      <p>Demonstrate baseline security skills for IT support professionals
+                        Configure device operating systems, including Windows, Mac, Linux, Chrome OS, Android and iOS
+                        and administer client-based as well as cloud-based (SaaS) software
+                        Troubleshoot and problem solve core service and support challenges while applying best practices
+                        for documentation, change management, and scripting
+                        Support basic IT infrastructure and networking
+                        Configure and support PC, mobile and IoT device hardware
+                        Implement basic data backup and recovery methods and apply data storage and management best
+                        practices.</p>
+                    </div>
+                    <!-- /Content -->
+                  </div>
+                </div>
+                <!-- /Item Content -->
+                <!-- Margin Collum-->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <!-- /Margin Collum-->
+              </div>
+              <!-- /SECTION ITEM -->
             </section>
+            <!-- ==>> /SECTION: EDUCATION <<==== -->
 
-            <!-- Contact-->
-            <section class="page-section" id="contact">
-                <div class="container">
-                    <div class="text-center">
-                        <h2 class="section-heading text-uppercase">Contact Me</h2>
+            <!-- ====>> SECTION: WORK EXPERIENCE <<====-->
+            <section class="timeline work-experience" id="works">
 
-                    </div>
-                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                        <div class="row align-items-stretch mb-5">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input class="form-control" id="name" type="text" placeholder="Your Name *"
-                                        required="required"
-                                        data-validation-required-message="Please enter your name." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" id="email" type="email" placeholder="Your Email *"
-                                        required="required"
-                                        data-validation-required-message="Please enter your email address." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group mb-md-0">
-                                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
-                                        required="required"
-                                        data-validation-required-message="Please enter your phone number." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group form-group-textarea mb-md-0">
-                                    <textarea class="form-control" id="message" placeholder="Your Message *"
-                                        required="required"
-                                        data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <div id="success"></div>
-                            <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton"
-                                type="submit">Send
-                                Message</button>
-                        </div>
-                    </form>
+              <!-- VERTICAL MARGIN (necessary for the timeline effect) -->
+              <div class="line row timeline-margin">
+                <div class="content-wrap">
+                  <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                  <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
+                  <div class="col-md-9 bg1 full-height"></div>
                 </div>
-            </section>
-            <!-- Footer-->
-            <footer class="footer py-4">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 text-lg-left">Copyright © https://geovany17.github.io/ 2020</div>
-                        <div class="col-lg-4 my-3 my-lg-0">
-                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/geovany_cardoza"><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/Geovany17"><i
-                                    class="fab fa-github"></i></a>
-                            <a class="btn btn-dark btn-social mx-2"
-                                href="https://www.linkedin.com/in/geovany-cardoza-14a961135/"><i
-                                    class="fab fa-linkedin-in"></i></a>
-                        </div>
-                        <div class="col-lg-4 text-lg-right">
-                            <a class="mr-3" href="#!">Privacy Policy</a>
-                            <a href="#!">Terms of Use</a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <!-- Portfolio Modals-->
-            <!-- Modal 1-->
-            <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg"
-                                alt="Close modal" />
-                        </div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-                                        <!-- Project Details Go Here-->
-                                        <h2 class="text-uppercase">Weather Dashboard</h2>
-                                        <p class="item-intro text-muted">About</p>
-                                        <img class="img-fluid d-block mx-auto"
-                                            src="assets/img/portfolio/weatherDasboard.png" alt="" />
-                                        <p>This app was made as a homework for Penn LPS bootcamp. This is a Weather
-                                            Dashboard application, built using HTML, CSS,Javascript,JQuery,JSON,AJAX and
-                                            the API's from OpenWeather API to retrieve weather data for cities.
+              </div>
+              <!-- /VERTICAL MARGIN -->
 
-                                            This project has been deployed to GitHub Pages.</p>
-                                        <ul class="list-inline">
-                                            <li>Date: September 15 2020</li>
-                                            <li>Category: Front-end</li>
-                                            <li>GitHub: <a href="https://github.com/Geovany17/weatherApp">GitHub
-                                                    repository</a> </li>
-                                            <li>Deployed GitHub IO: <a
-                                                    href="https://geovany17.github.io/weatherApp/">Deployed GitHub
-                                                    IO</a> </li>
-                                        </ul>
-                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                            <i class="fas fa-times mr-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              <!-- SECTION TITLE -->
+              <div class="line row">
+                <!-- Margin Collums (necessary for the timeline effect) -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height"></div>
+                <!-- /Margin Collums -->
+                <!-- Item Content -->
+                <div class="col-md-8 content-wrap bg1">
+                  <!-- Section title -->
+                  <h2 class="section-title">Work Experience</h2>
+                  <!-- /Section title -->
                 </div>
+                <!-- /Item Content -->
+                <!-- Margin Collum-->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <!-- /Margin Collum-->
+              </div>
+              <!-- /SECTION TITLE -->
+
+              <!-- SECTION ITEM -->
+              <div class="line row">
+                <!-- Margin Collums (necessary for the timeline effect) -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-work "></div>
+                <!-- /Margin Collums -->
+                <!-- Item Content -->
+                <div class="col-md-8 content-wrap bg1">
+                  <div class="line-content line-content-education">
+                    <!-- Work Place -->
+                    <h3 class="section-item-title-1">Freelancer</h3>
+                    <!-- /work place -->
+                    <!-- Graduation time -->
+                    <h4 class="job"><i class="fa fa-flag"></i> Web development / IT technician- <span class="job-date">
+                        2020 -
+                        Current</span></h4>
+                    <!-- /Graduation time -->
+                    <!-- content -->
+                    <div class="job-description">
+                      <p>Developing awesome responsive websites and Pc and mobile devices tech.</p>
+                    </div>
+                    <!-- /Content -->
+                  </div>
+                </div>
+                <!-- /Item Content -->
+                <!-- Margin Collum-->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <!-- /Margin Collum-->
+              </div>
+              <!-- /SECTION ITEM -->
+
+              <!-- SECTION ITEM -->
+              <div class="line row">
+                <!-- Margin Collums (necessary for the timeline effect) -->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-work "></div>
+                <!-- /Margin Collums -->
+                <!-- Item Content -->
+                <div class="col-md-8 content-wrap bg1">
+                  <div class="line-content line-content-education">
+                    <!-- Work Place -->
+                    <h3 class="section-item-title-1">Eastern Catalytic.</h3>
+                    <!-- /work place -->
+                    <!-- Graduation time -->
+                    <h4 class="job"><i class="fa fa-flag"></i> MIG welder/ machine tech - <span class="job-date"> 2019 -
+                        2020</span></h4>
+                    <!-- /Graduation time -->
+                    <!-- content -->
+                    <div class="job-description">
+                      <p>Weld mufflers to target and quality specifications.
+                        Correctly enter production and scrap into the stock reporting system.
+                        Ensure welding equipment is in good operating and safe working order.
+                        Meet or exceed set production targets where applicable.
+                        Ensures jobs are set up properly and all components fit before beginning to weld.
+                        Performs basic maintenance functions on machines and tooling.
+                        Keep area, machines, tools and equipment clean, organized and clear of debris.
+                        Ensure that machines safety protocols are all functional and that the job set up is in a safe
+                        condition.</p>
+                    </div>
+                    <!-- /Content -->
+                  </div>
+                </div>
+                <!-- /Item Content -->
+                <!-- Margin Collum-->
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <!-- /Margin Collum-->
+              </div>
+              <!-- /SECTION ITEM -->
+
+              <!-- SECTION ITEM -->
+
+              <!-- /Margin Collum-->
+          </div>
+          <!-- /SECTION ITEM -->
+
+          <!-- SECTION ITEM -->
+
+          <!-- /SECTION ITEM -->
+          <!-- ====>> SECTION: SKILLS <<====-->
+          <section class="timeline skills" id="skills">
+
+            <!-- VERTICAL MARGIN (necessary for the timeline effect) -->
+            <div class="line row timeline-margin">
+              <div class="content-wrap">
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
+                <div class="col-md-9 bg1 full-height"></div>
+              </div>
             </div>
-            <!-- Modal 2-->
-            <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg"
-                                alt="Close modal" />
-                        </div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-                                        <!-- Project Details Go Here-->
-                                        <h2 class="text-uppercase">MY Pet Finder App</h2>
-                                        <p class="item-intro text-muted">About</p>
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/PetFinder!.gif"
-                                            alt="" />
-                                        <p>This program is fully deployable from a Heroku link
-                                            The user will be asked to create a user ID and password at the
-                                            start so that their information will be saved in the database.
-                                            The user experience will be that they will deploy from an Heroku link, and
-                                            create a user ID and password at the start. They will use that user ID and
-                                            password to login to the site, and will be taken to a search page. The user
-                                            can enter a zip code and choose criteria related to their pet search and
-                                            click submit. The app will return cards with adoptable pets and their
-                                            information.
-                                            The user can then click on a provided link to go get more information about
-                                            a pet, or they can click on a button to save a pet to their favorites
-                                            library. The user can navigate to the favorites library and see all the pets
-                                            they have saved, and add personal notes to their pet information and update
-                                            the database by a click of a button.
-                                            In future development the user will be able to delete pets from their
-                                            favorites library
-                                            application tools and technologies used: HTML, CSS, and Javascript.
-                                            This project has been deployed to GitHub Pages and Heroku.</p>
-                                        <ul class="list-inline">
-                                            <li>Date: October 19 2020</li>
-                                            <li>Category: FullStack</li>
-                                            <li>GitHub: <a href="https://github.com/SeyKoplik/PetFinder">GitHub
-                                                    repository</a> </li>
-                                            <li>Deployed On Heroku <a href="https://petfind-app.herokuapp.com/">Deployed
-                                                    Heroku
-                                                </a> </li>
-                                        </ul>
-                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                            <i class="fas fa-times mr-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <!-- /VERTICAL MARGIN -->
+
+            <!-- SECTION TITLE -->
+            <div class="line row">
+              <!-- VERTICAL MARGIN (necessary for the timeline effect) -->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height"></div>
+              <!-- /VERTICAL MARGIN (necessary for the timeline effect) -->
+              <!-- Item Content -->
+              <div class="col-md-8 content-wrap bg1">
+                <!-- Section title -->
+                <h2 class="section-title">Skills</h2>
+                <!-- /Section title -->
+              </div>
+              <!-- /Item Content -->
+              <!-- Margin Collum-->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <!-- /Margin Collum-->
             </div>
-            <!-- Modal 3-->
-            <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg"
-                                alt="Close modal" />
+            <!-- /SECTION TITLE -->
+
+            <!-- SECTION ITEM -->
+            <div class="line row">
+              <!-- Margin Collums (necessary for the timeline effect) -->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+              <!-- / Margin Collums -->
+              <!-- Item Content -->
+              <div class="col-md-8 content-wrap bg1">
+                <div class="line-content">
+                  <!-- Subtitle -->
+                  <h3 class="section-item-title-1">Professional IT Skills</h3>
+                  <!-- /Subtitle -->
+                  <!-- content -->
+                  <ul class="skills-list">
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-percent="100%" style="width: 100%;">
+                          <span class="sr-only"></span>
                         </div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-                                        <!-- Project Details Go Here-->
-                                        <h2 class="text-uppercase">Password Generator</h2>
-                                        <p class="item-intro text-muted">About</p>
-                                        <img class="img-fluid d-block mx-auto"
-                                            src="assets/img/portfolio/PasswordGenerator.png" alt="" />
-                                        <p>Password Generator This project was a homework assignment Penn LPS coding
-                                            bootcamp.
+                        <span class="progress-type">Hardware</span>
 
-                                            This application use of Javascript to generate a random, secure password for
-                                            the user.
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-2" role="progressbar" data-percent="100%"
+                          style="width: 100%;">
 
-                                            At first the user i received with a welcome to the password generator app
-                                            and instructions. created by my self GEOVANY CARDOZA. then you have to click
-                                            generate password to start generating following the steps
-
-                                            the user receives a series of prompt messages ,asking them for the
-                                            specifications to generate a password
-
-                                            This project has been deployed to GitHub Pages.</p>
-                                        <ul class="list-inline">
-                                            <li>Date: September 3 2020</li>
-                                            <li>Category: Front-end</li>
-                                            <li>GitHub: <a href="https://github.com/Geovany17/PasswordGenerator">GitHub
-                                                    repository</a> </li>
-                                            <li>Deployed GitHub IO: <a
-                                                    href="https://geovany17.github.io/PasswordGenerator/">Deployed
-                                                    GitHub IO</a> </li>
-                                        </ul>
-                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                            <i class="fas fa-times mr-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-                    </div>
+                        <span class="progress-type">Operating systems</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress" title="Doing my best!">
+                        <div class="progress-bar progress-bar-3" role="progressbar" data-percent="100%"
+                          style="width: 100%;">
+
+                        </div>
+                        <span class="progress-type">Software troubleshooting</span>
+
+                      </div>
+                    </li>
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-percent="100%" style="width: 100%;">
+                          <span class="sr-only"></span>
+                        </div>
+                        <span class="progress-type">Networking</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-2" role="progressbar" data-percent="100%"
+                          style="width: 100%;">
+
+                        </div>
+                        <span class="progress-type">Hardware and network troubleshooting</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress" title="Doing my best!">
+                        <div class="progress-bar progress-bar-3" role="progressbar" data-percent="100%"
+                          style="width: 100%;">
+
+                        </div>
+                        <span class="progress-type">Security</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-percent="100%" style="width: 100%;">
+                          <span class="sr-only"></span>
+                        </div>
+                        <span class="progress-type">Mobile devices</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-2" role="progressbar" data-percent="100%"
+                          style="width: 100%;">
+
+                        </div>
+                        <span class="progress-type">Virtualization and cloud computing</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress" title="Doing my best!">
+                        <div class="progress-bar progress-bar-3" role="progressbar" data-percent="100%"
+                          style="width: 100%;">
+
+                        </div>
+                        <span class="progress-type">Operational procedures</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                  </ul>
+                  <!-- /Content -->
                 </div>
+              </div>
+              <!-- /Item Content -->
+              <!-- Margin Collum-->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <!-- /Margin Collum-->
             </div>
-            <!-- Modal 4-->
-            <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg"
-                                alt="Close modal" />
-                        </div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-                                        <!-- Project Details Go Here-->
-                                        <h2 class="text-uppercase">Day Schedule</h2>
-                                        <p class="item-intro text-muted">About</p>
-                                        <img class="img-fluid d-block mx-auto"
-                                            src="assets/img/portfolio/DaySchedule.png" alt="" />
-                                        <p>This day planner allows the user to enter and save a task in each hour block.
-                                            The blocks are color-coded to let the user know which events have passed,
-                                            are happening, and are coming up. The user's inputs are saved to the page
-                                            using local storage. This app was made as a homework for Penn LPS bootcamp.
-                                            This is a work daily schedule application, built using HTML, CSS,Javascript
-                                            and JQuery. This project has been deployed to GitHub Pages.</p>
-                                        <ul class="list-inline">
-                                            <li>Date: September 11 2020</li>
-                                            <li>Category: Front-end</li>
-                                            <li>GitHub: <a href="https://github.com/Geovany17/daySchedule">GitHub
-                                                    repository</a> </li>
-                                            <li>Deployed GitHub IO: <a
-                                                    href="https://geovany17.github.io/daySchedule/">Deployed GitHub
-                                                    IO</a> </li>
-                                        </ul>
-                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                            <i class="fas fa-times mr-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Modal 5-->
-            <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg"
-                                alt="Close modal" />
-                        </div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-                                        <!-- Project Details Go Here-->
-                                        <h2 class="text-uppercase">Todo</h2>
-                                        <p class="item-intro text-muted">About</p>
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/todos.png"
-                                            alt="" />
-                                        <p>this is a project that I made about a year ago in udemy the web developer
-                                            bootcamp by colt steele.Is built using html, css and js.
+            <!-- /SECTION ITEM -->
 
-                                        </p>
-                                        <ul class="list-inline">
-                                            <li>Date: July 18 2020</li>
-                                            <li>Category: Front-end</li>
-                                            <li>GitHub: <a href="https://github.com/Geovany17/todo">GitHub
-                                                    repository</a> </li>
-                                            <li>Deployed GitHub IO: <a href="https://geovany17.github.io/todo/">Deployed
-                                                    GitHub
-                                                    IO</a> </li>
-                                        </ul>
-                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                            <i class="fas fa-times mr-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Modal 6-->
-            <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg"
-                                alt="Close modal" />
-                        </div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-                                        <!-- Project Details Go Here-->
-                                        <h2 class="text-uppercase">CovidTravellarGFS</h2>
-                                        <p class="item-intro text-muted">About</p>
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/covidGFS.png"
-                                            alt="" />
-                                        <p>Has the idea of travelling become a scary thought because of the concerns
-                                            surrounding Covid-19?
-                                            Well then, our application may be the answer for you!
-                                            The CovidTravellerGSF helps you, the user ,select any of the 50 states that
-                                            you would like to travel to.
-                                            After giving you the list of states, it then then presents you with basic
-                                            knowledge of the state along with the coronavirus data regarding that
-                                            specific area.
-                                            The Motivation to make this application came from the fear surrounding
-                                            traveling which arose from the pandemic.
-                                            It’s hard to stay safe while travelling and no one wants to get sick. Issues
-                                            can arise whether you should be extra careful in a specific state or not
-                                            because their coronavirus statistics could be extremely high or even may be
-                                            closed off without your knowledge.
-                                            Our application can help anyone looking to travel through the 50 united
-                                            states by giving you brief data on that state along with some covid-19
-                                            statistics
+            <!-- SECTION ITEM -->
+            <div class="line row">
+              <!-- Margin Collums (necessary for the timeline effect) -->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+              <!-- /Margin Collums -->
+              <!-- Item Content -->
+              <div class="col-md-8 content-wrap bg1">
+                <div class="line-content">
+                  <!-- Subtitle -->
+                  <h3 class="section-item-title-1">Software Skills</h3>
+                  <!-- /Subtitle -->
+                  <!-- content -->
+                  <ul class="skills-list">
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar" data-percent="100%" role="progressbar" style="width: 100%;">
 
-                                        </p>
-                                        <ul class="list-inline">
-                                            <li>Date: September 21 2020</li>
-                                            <li>Category: Front-end</li>
-                                            <li>GitHub: <a
-                                                    href="https://github.com/SeyKoplik/CovidTravellerGFSPage">GitHub
-                                                    repository</a> </li>
-                                            <li>Deployed GitHub IO: <a
-                                                    href="https://seykoplik.github.io/CovidTravellerGFSPage/">Deployed
-                                                    GitHub
-                                                    IO</a> </li>
-                                        </ul>
-                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                            <i class="fas fa-times mr-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-                    </div>
+                        <span class="progress-type">Git</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-2" data-percent="100%" role="progressbar"
+                          style="width: 100%;">
+
+                        </div>
+                        <span class="progress-type">Github</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-3" data-percent="100%" role="progressbar"
+                          style="width: 100%;">
+
+                        </div>
+                        <span class="progress-type">Slack</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <!-- item list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar" data-percent="100%" role="progressbar" style="width: 100%;">
+
+                        </div>
+                        <span class="progress-type">Wordpress</span>
+
+                      </div>
+                    </li>
+                  </ul>
+                  <!-- /Content -->
                 </div>
+              </div>
+              <!-- /Item Content -->
+              <!-- Margin Collum-->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <!-- /Margin Collum-->
             </div>
-            <!-- Bootstrap core JS-->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-            <!-- Third party plugin JS-->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-            <!-- Contact form JS-->
-            <script src="assets/mail/jqBootstrapValidation.js"></script>
-            <script src="assets/mail/contact_me.js"></script>
-            <!-- Core theme JS-->
-            <script src="js/scripts.js"></script>
+            <!-- /SECTION ITEM -->
+
+            <!-- SECTION ITEM -->
+            <div class="line row">
+              <!-- Margin Collums (necessary for the timeline effect) -->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+              <!-- /Margin Collums (necessary for the timeline effect) -->
+              <!-- Item Content -->
+              <div class="col-md-8 content-wrap bg1">
+                <div class="line-content">
+                  <!-- Subtitle -->
+                  <h3 class="section-item-title-1">Code Skills</h3>
+                  <!-- /Subtitle -->
+                  <!-- content -->
+                  <ul class="skills-list">
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar" data-percent="100%" role="progressbar" style="width: 100%;">
+
+                        </div>
+                        <span class="progress-type">HTML5 / CSS3 / Bootstrap</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-2" data-percent="100%" role="progressbar"
+                          style="width: 100%;">
+
+                        </div>
+                        <span class="progress-type">Javascript</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-3" data-percent="100%" role="progressbar"
+                          style="width: 100%;">
+
+                        </div>
+                        <span class="progress-type">React.Js</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar" data-percent="100%" role="progressbar" style="width: 100%;">
+
+                        </div>
+                        <span class="progress-type">Mongo db</span>
+
+                      </div>
+                    </li>
+                    <!-- /item list -->
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-2" data-percent="100%" role="progressbar"
+                          style="width: 100%;">
+
+                        </div>
+                        <span class="progress-type">MySQL</span>
+
+                      </div>
+                    </li>
+                  </ul>
+                  <!-- /Content -->
+                </div>
+              </div>
+              <!-- /Item Content -->
+
+              <!-- Margin Collum-->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <!-- /Margin Collum-->
+            </div>
+            <!-- /SECTION ITEM -->
+          </section>
+          <!-- ==>> /SECTION: SKILLS -->
+
+          <!-- ====>> SECTION: INTERESTS <<====-->
+          <section class="timeline" id="interests">
+
+            <!-- VERTICAL MARGIN (necessary for the timeline effect) -->
+            <div class="line row timeline-margin">
+              <div class="content-wrap">
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
+                <div class="col-md-9 bg1 full-height"></div>
+              </div>
+            </div>
+            <!-- /VERTICAL MARGIN -->
+
+            <!-- SECTION TITLE -->
+            <div class="line row">
+              <!-- Margin Collums (necessary for the timeline effect) -->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height"></div>
+              <!-- /Margin Collums -->
+              <!-- Item Content -->
+              <div class="col-md-8 content-wrap bg1">
+                <!-- Section title -->
+                <h2 class="section-title">Interests</h2>
+                <!-- /Section title -->
+              </div>
+              <!-- /Item Content -->
+              <!-- Margin Collum-->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <!-- /Margin Collum-->
+            </div>
+            <!-- /SECTION TITLE -->
+
+            <!-- SECTION ITEM -->
+            <div class="line row">
+              <!-- Margin Collums (necessary for the timeline effect) -->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+              <!-- /Margin Collums -->
+              <!-- Item Content -->
+              <div class="col-md-8 content-wrap bg1">
+                <div class="line-content">
+                  <!-- Subtitle -->
+                  <h3 class="section-item-title-1"> New Technologies</h3>
+                  <!-- /Subtitle -->
+                  <!-- content -->
+
+                  <!-- /Content -->
+                </div>
+              </div>
+              <!-- /Item Content -->
+              <!-- Margin Collum-->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <!-- /Margin Collum-->
+            </div>
+            <!-- /SECTION ITEM -->
+
+            <!-- SECTION ITEM -->
+            <div class="line row">
+              <!-- Margin Collums (necessary for the timeline effect) -->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+              <!-- /Margin Collums -->
+              <!-- Item Content -->
+              <div class="col-md-8 content-wrap bg1">
+                <div class="line-content">
+                  <!-- Subtitle -->
+                  <h3 class="section-item-title-1">Games</h3>
+                  <!-- /Subtitle -->
+                  <!-- content -->
+
+                  <!-- /Content -->
+                </div>
+              </div>
+              <!-- /Item Content -->
+              <!-- Margin Collum-->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <!-- /Margin Collum-->
+            </div>
+            <!-- /SECTION ITEM -->
+
+            <!-- SECTION ITEM -->
+            <div class="line row">
+              <!-- Margin Collums (necessary for the timeline effect) -->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+              <!-- /Margin Collums -->
+              <!-- Item Content -->
+              <div class="col-md-8 content-wrap bg1">
+                <div class="line-content">
+                  <!-- Subtitle -->
+                  <h3 class="section-item-title-1">Hiking / Nature</h3>
+                  <!-- /Subtitle -->
+                  <!-- content -->
+
+                  <!-- /Content -->
+                </div>
+              </div>
+              <!-- /Item Content -->
+              <!-- Margin Collum-->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <!-- /Margin Collum-->
+            </div>
+            <!-- /SECTION ITEM -->
+          </section>
+          <!-- ==>> /SECTION: INTERESTS -->
+
+          <!-- ====>> SECTION: PORTFOLIO <<====-->
+          <section class="timeline portfolio" id="portfolio">
+
+            <!-- VERTICAL MARGIN (necessary for the timeline effect) -->
+            <div class="line row timeline-margin">
+              <div class="content-wrap">
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
+                <div class="col-md-9 bg1 full-height"></div>
+              </div>
+            </div>
+            <!-- /VERTICAL MARGIN -->
+
+            <!-- SECTION TITLE -->
+            <div class="line row">
+              <!-- Margin Collums (necessary for the timeline effect) -->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height"></div>
+              <!-- /Margin Collums -->
+              <!-- Item Content -->
+              <div class="col-md-8 content-wrap bg1">
+                <!-- Section title -->
+                <h2 class="section-title">Portfólio</h2>
+                <!-- /Section title -->
+              </div>
+              <!-- Item Content -->
+              <!-- Margin Collum-->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <!-- /Margin Collum-->
+            </div>
+            <!-- /SECTION TITLE -->
+
+            <!-- SECTION ITEM -->
+            <div class="line row">
+              <!-- Margin Collums (necessary for the timeline effect) -->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+              <!-- /Margin Collums -->
+              <!-- Item Content -->
+              <div class="col-md-8 content-wrap bg1">
+                <div class="line-content">
+                  <!-- Subtitle -->
+                  <h3 class="section-item-title-1">Some Projects</h3>
+                  <!-- /Subtitle -->
+                  <!-- content -->
+                  <div class="portfolio-itens clearfix">
+                    <!-- Portfolio item -->
+                    <div class="portfolio-item">
+                      <!-- Link to the item image (Put the long description on  "a" title)-->
+                      <a href="https://verde-organiko.herokuapp.com/">
+                        <div class="hover">
+                          <p class="zoomi"><i class="fa fa-search"></i></p>
+                          <!-- Item short title -->
+                          <p class="portfolio-item-title"><strong>Verde organico website</strong><br /> </p>
+                        </div>
+                        <div class="hover-bg-wrapper">
+                          <div class="hover-bg"></div>
+                        </div>
+                        <div class="portfolio-item-thumbnail">
+                          <!-- Thumbnail of the portfolio image (400x360 for retina display) -->
+                          <img
+                            src="https://github.com/ydeek/VerdeOrganiko/blob/main/client/public/assets/images/Verde_OrganiKo.gif?raw=true"
+                            alt="">
+                        </div>
+                      </a>
+                      <h4>Verde Organiko</h4>
+
+                    </div>
+                    <a href="https://github.com/ydeek/VerdeOrganiko"><strong> Project repo</strong></a>
+                    <!-- /Portfolio item -->
+
+                    <!-- Portfolio item -->
+                    <div class="portfolio-item">
+                      <!-- Link to the item image (Put the long description on  "a" title)-->
+                      <a href="https://mkcservicegroup.com/">
+                        <div class="hover">
+                          <p class="zoomi"><i class="fa fa-search"></i></p>
+                          <!-- Item short title -->
+                          <p class="portfolio-item-title"><strong>M & K Cleaning services</strong><br /> Website</p>
+                        </div>
+                        <div class="hover-bg-wrapper">
+                          <div class="hover-bg"></div>
+                        </div>
+                        <div class="portfolio-item-thumbnail">
+                          <!-- Thumbnail of the portfolio image (400x360 for retina display) -->
+                          <img src="img/mkc.png" alt="">
+                        </div>
+                      </a>
+                      <h4>M & K Cleaning services</h4>
+                    </div>
+                    <a href="https://mkcservicegroup.com/"><strong> Project website</strong></a>
+                    <!-- /Portfolio item -->
+
+                    <!-- Portfolio item -->
+                    <div class="portfolio-item">
+                      <!-- Link to the item image (Put the long description on  "a" title)-->
+                      <a href="img/portfolio-item-zoom.jpg" class="nivobox" data-lightbox-gallery="portfolio">
+                        <div class="hover">
+                          <p class="zoomi"><i class="fa fa-search"></i></p>
+                          <!-- Item short title -->
+                          <p class="portfolio-item-title"><strong>Petfinder</strong><br />App website</p>
+                        </div>
+                        <div class="hover-bg-wrapper">
+                          <div class="hover-bg"></div>
+                        </div>
+                        <div class="portfolio-item-thumbnail">
+                          <!-- Thumbnail of the portfolio image (400x360 for retina display) -->
+                          <img
+                            src="https://github.com/SeyKoplik/Project2_PetFinder/blob/main/public/img/petfind-app.png?raw=true"
+                            alt="">
+                        </div>
+                      </a>
+                      <h4>PetFinder</h4>
+                    </div>
+                    <a href="https://github.com/SeyKoplik/Project2_PetFinder/tree/geo-branch"><strong> Project
+                        repo</strong></a>
+                    <!-- /Portfolio item -->
+
+
+
+
+
+
+
+
+                  </div>
+                  <!-- /Content -->
+                </div>
+              </div>
+              <!-- Item Content -->
+              <!-- Margin Collum-->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <!-- /Margin Collum-->
+            </div>
+            <!-- /SECTION ITEM -->
+          </section>
+          <!-- ==>> /SECTION: PORTFOLIO -->
+
+          <!-- ====>> SECTION: CONTACT <<====-->
+          <section class="timeline" id="contact">
+
+            <!-- VERTICAL MARGIN (necessary for the timeline effect) -->
+            <div class="line row timeline-margin">
+              <div class="content-wrap">
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
+                <div class="col-md-9 bg1 full-height"></div>
+              </div>
+            </div>
+            <!-- /VERTICAL MARGIN -->
+
+            <!-- SECTION TITLE -->
+            <div class="line row">
+              <!-- Margin Collums (necessary for the timeline effect) -->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height"></div>
+              <!-- /Margin Collums -->
+              <!-- Item Content -->
+              <div class="col-md-8 content-wrap bg1">
+                <!-- Section title -->
+                <h2 class="section-title">Contact Me</h2>
+                <!-- /Section title -->
+              </div>
+              <!-- /Item Content -->
+              <!-- Margin Collum-->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <!-- / Margin Collum-->
+            </div>
+            <!-- /SECTION TITLE -->
+
+            <!-- SECTION ITEM -->
+            <div class="line row">
+              <!-- Margin Collums (necessary for the timeline effect) -->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-mail "></div>
+              <!-- /Margin Collums -->
+              <!-- Item Content -->
+              <div class="col-md-8 content-wrap bg1">
+                <div class="line-content contact-content">
+                  <!-- Subtitle -->
+                  <h3 class="section-item-title-1">Send me a message</h3>
+                  <!-- /Subtitle -->
+                  <!-- content -->
+                  <div class="row">
+
+                    <!-- Contact infos -->
+                    <div class="col-md-4 contact-infos">
+                      <h4 class="contact-subtitle-1">Address</h4>
+                      <p>3313 Emerald st. , Philadelphia - Pennsylvania - U.S.A</p>
+                      <h4 class="contact-subtitle-1">Phone</h4>
+                      <p>+1 267 306 7710</p>
+                      <h4 class="contact-subtitle-1">Mail</h4>
+                      <p>geoyd17@gmail.com</p>
+                    </div>
+                    <!-- /Contact infos -->
+                  </div>
+                  <!-- /Content -->
+
+                </div>
+
+              </div>
+              <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+              <div class="elfsight-app-560e7682-7b51-4019-a6d8-7bb11d88d4e2"></div>
+              <!-- /Item Content -->
+              <!-- Margin Collum-->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <!--/ Margin Collum-->
+            </div>
+            <!-- /SECTION ITEM -->
+          </section>
+          <!-- ==>> /SECTION: CONTACT -->
+
+          <!-- ====>> SECTION: THANK YOU <<====-->
+          <section class="timeline profile-infos">
+
+            <!-- VERTICAL MARGIN (necessary for the timeline effect) -->
+            <div class="line row timeline-margin timeline-margin-big">
+              <div class="content-wrap">
+                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
+                <div class="col-md-9 bg1 full-height"></div>
+              </div>
+            </div>
+            <!-- /VERTICAL MARGIN -->
+
+            <!-- SECTION ITEM -->
+            <div class="line row line-thank-you">
+              <!-- Margin Collums (necessary for the timeline effect) -->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+              <!-- /Margin Collums -->
+              <!-- Item Content -->
+              <div class="col-md-8 content-wrap bg1">
+                <div class="line-content">
+                  <!-- Subtitle -->
+                  <h3 class="thank-you">Thank You!</h3>
+                  <!-- /Subtitle -->
+                </div>
+              </div>
+              <!-- /Item Content -->
+              <!-- Margin Collum-->
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <!-- / Margin Collum-->
+            </div>
+            <!-- /SECTION ITEM -->
+          </section>
+          <!-- ==>> /SECTION: PROFILE INFOS -->
+        </div>
+        <footer id="footer" class="row">
+          <!-- Put your Quote Here-->
+          <p class="quote">“Just don't give up trying to do what you really want to do. Where there is love and
+            inspiration, I don't think you can go wrong.”</p>
+          <!-- /Quote -->
+          <!-- Quote Autor -->
+          <p class="author">Ella Fitzgerald</p>
+          <!-- /Quote Autor -->
+        </footer>
+      </div>
+      <!-- ============  /TIMELINE ================= -->
+
+      <!-- ============  FOOTER ================= -->
+
+      <!-- ============  /FOOTER ================= -->
+    </div>
+
+    </div>
+
+  </section>
+  <!-- /CONTENT
+========================================================= -->
+
+  <!-- Contact Form - Ajax Messages
+========================================================= -->
+  <!-- Form Sucess -->
+
+  </section>
+  <!-- ==>> /SECTION: WORK EXPERIENCE <<==== -->
+
+
+  <!-- /form-sending -->
+
+  <!-- Contact Form - Ajax Messages
+========================================================= -->
+
+  <!-- Javascript Files
+========================================================= -->
+  <!-- jQuery (necessary for plugins) -->
+  <script src="assets/jquery-1.11.1.min.js"></script>
+  <!-- /jquery -->
+  <!-- bootstrap -->
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <!-- /bootstrap -->
+  <!-- easing -->
+  <script src="assets/jquery.easing.min.js"></script>
+  <!-- /easing -->
+  <!-- jQuery Mousewheel -->
+  <script src="assets/jquery.mousewheel.min.js"></script>
+  <!-- /jQuery Mousewheel -->
+  <!-- jQuery Mousewheel Smoothscroll -->
+  <script src="assets/jquery.nicescroll.min.js"></script>
+  <script src="assets/jquery.nicescroll.plus.js"></script>
+  <!-- /jQuery Mousewheel Smoothscroll -->
+  <!-- Waypoints (for CSS3 animations) -->
+  <script src="assets/waypoints.min.js"></script>
+  <!-- /waypoints -->
+  <!-- Modal box-->
+  <script src="assets/nivo-lightbox/nivo-lightbox.min.js"></script>
+  <!-- /Modal Box -->
+  <!-- Carousel-->
+  <script src="assets/jquery.bxslider.min.js"></script>
+  <!-- /Carousel -->
+  <!-- Front-end Validator (for forms) -->
+  <script src="assets/jquery.validate.min.js"></script>
+  <!-- /Front-end Validator -->
+  <!-- placeholder Support for IE -->
+  <script src="assets/placeholders.jquery.min.js"></script>
+  <!-- /placeholder support -->
+  <!-- Cross-browser -->
+  <script src="assets/cross-browser.js"></script>
+  <!-- /Cross-browser -->
+  <!-- Configurations -->
+  <script src="js/main.js"></script>
+  <!-- /Configurations -->
 </body>
 
 </html>
